@@ -40,4 +40,20 @@ ENV/
 .env
 .env.local
 .coverage
-htmlcov/ 
+htmlcov/
+
+# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.pkl 
